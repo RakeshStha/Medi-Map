@@ -164,3 +164,40 @@ footer > .bottom-footer > .bottom-right-footer {
       grid-template-columns: 1fr;
     } */
 }
+
+
+/*Map*/
+.body-map{
+    padding-top: 10px;
+}
+
+.body-map h1{
+    padding: 30px;
+    text-align: center;
+}
+
+.note-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.note {
+    background-color: rgb(168, 66, 66);
+    border-radius: 10px;
+    width: 60%;
+    font-size: 23px;
+    padding: 20px;
+    text-align: center;
+}
+
+.map-integration {
+    margin: 0px;
+    padding: 20px;
+    height: 600px;
+    width: 100%;
+}
+
+#map {
+    height: 100%;
+  }
