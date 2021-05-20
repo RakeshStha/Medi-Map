@@ -1,4 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 .navbar {
+    margin: 0px;
     background: #B1D6E2;
-    height: 202px;
+    height: 150px;
+    align-items: center;
+}
+
+.logo img {
+    height: 140px;
+}
+
+.nav-container {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    flex: 1;
+}
+
+.navlink {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.navlink-1 {
+    flex: 1;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Body container */
+
+
+.body-container {
+    background-image: url('../img/7815.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+    
+}
+
+.body-container h1{
+    padding: 10px;
+    padding-top: 50px ;
+    text-align: center;
+}
+
+/* How to use */
+.how-to-use {
+    padding: 10px;
+}
+
+.how-to-use h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.how-to-use-content {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+
+.how-to-use-img {
+    flex: 1;
+    padding: 30px;
+}
+
+.how-to-use-soln {
+    flex: 1;
+    padding: 30px;
+}
+.how-to-use-soln h2{
+    padding: 20px;
+    font-size: 35px;
+}
+
+.how-to-use-soln ul li{
+    padding: 20px;
+    font-size: 28px;
+}
+
+/* Map */
+
+.map{
+    padding: 40px;
 }
