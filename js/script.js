@@ -17,7 +17,7 @@ function initMap() {
         var marker = new google.maps.Marker({
             position:coords,
             map:map,
-            icon:'./img/Logo.png',
+            icon:'./img/pharmacy.png',
         });
     }
 }
