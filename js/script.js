@@ -1,11 +1,23 @@
+var map;
 function initMap() {
-    const loc = { lat: 27.59346362401388, lng: 85.29809058466019 };
-    const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 12,
-      center: loc,
+    map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 27.597256056882415, lng: 85.31948317008779},
+        zoom: 17
     });
-    const marker = new google.maps.Marker({
-      position: loc,
-      map: map,
-    });
-  }
+
+    //call marker function
+    addMarker({lat:27.597256056882415,lng:85.31948317008779});
+    addMarker({lat:27.5976411567244,lng:85.32435651634849});
+    addMarker({lat:27.600731889166706,lng:85.31349128502795});
+    addMarker({lat:27.599277175518917,lng:85.31882351620831});
+   
+
+    //add marker function
+    function addMarker(coords){
+        var marker = new google.maps.Marker({
+            position:coords,
+            map:map,
+            icon:'./img/Logo.png',
+        });
+    }
+}
